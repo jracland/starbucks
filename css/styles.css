@@ -1,0 +1,91 @@
+/********** Table of Contents **********/
+
+
+/********** Branding **********/
+
+/* font-family: 'Open Sans', sans-serif;
+
+#1e3932 #008248 #d4e9e2 #f1f8f6 #f3f1e7 #000000 */
+
+
+/********** General Styles **********/
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.h1 {
+  font-weight: bolder;
+}
+
+/********** General Classes **********/
+
+.banner {
+  text-align: left;
+}
+
+.icon-image {
+  width: 112px;
+}
+
+/********** Sections **********/
+
+/* Navbar and Banner */
+
+.banner {
+  background-color: #1e3932;
+  color: #fff;
+  font-weight: 600;
+  height: 50px;
+}
+
+.banner-p {
+  margin-top: 10px;
+}
+
+.banner-link {
+  margin-top: 6px;
+}
+
+.navbar-light {
+  background-color: #fff;
+}
+
+.nav-button {
+  margin-right: 10px;
+}
+
+/* Splash */
+#splash {
+  background-color: #d4e9e2;
+}
+
+.h1-col {
+  padding-top: 40px;
+}
+
+.hero {
+  text-align: center;
+}
+
+/* Favourites */
+.favourites-header {
+  background-color: #f1f8f6;
+}
+
+#favourites-carousel {
+  background-color: #d4e9e2;
+}
+
+/* Extras */
+
+/* Getstars */
+#getstars {
+  background-color: #f3f1e7;
+}
+
+
+/* Restrictions */
+#restrictions {
+  background-color: #f9f9f9;
+}
