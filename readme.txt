@@ -15,7 +15,7 @@ Over the course of this project, I gained more experience in:
 - Bootstrap 5 Navbars, containers, columns, hero images
 - Styling (using CSS)
 - Using media queries for responsive styling
-- Using Github
+- Using Git and VSCode for version control
 
 New skills I learned were:
 
