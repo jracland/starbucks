@@ -14,8 +14,24 @@ body {
   text-align: center;
 }
 
-.h1 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: bolder;
+  line-height: 1.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /********** General Classes **********/
@@ -28,9 +44,7 @@ body {
   width: 112px;
 }
 
-.sectionheader {
-  padding-bottom: 5%;
-}
+
 
 /********** Sections **********/
 
@@ -81,13 +95,13 @@ body {
 
 /* Get Started */
 
-#getstarted {
+#getstarted, #extras {
   padding-top: 10%;
   padding-bottom: 10%;
 }
 
 @media screen and (min-width: 720px) {
-  #getstarted {
+  #getstarted, #extras {
     padding-top: 150px;
     padding-bottom: 150px;
   }
@@ -101,12 +115,13 @@ body {
 }
 
 /* Favourites */
-.favourites-header {
+#favourites {
   background-color: #f1f8f6;
 }
 
 #favourites-carousel {
   background-color: #d4e9e2;
+  margin-top: 0;
 }
 
 /* Extras */

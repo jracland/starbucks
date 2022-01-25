@@ -6,7 +6,7 @@ My task was to replicate the Starbucks Rewards page, found here: https://www.sta
 
 The task was set by frontendpractice.com, found here: https://www.frontendpractice.com/project/starbucks
 
-I first added all the content using HTML and Bootstrap (roughly 8 hours including researching to gain new skills and refresh prefiously used skills). I then added media queries to replicate the responsiveness of the original page. I then styled the page to match the original page.
+I first added all the content using HTML and Bootstrap (roughly 8 hours including researching to gain new skills and refresh prefiously used skills). I then styled the page using CSS to match the original page. Finally, I added media queries to replicate the responsiveness of the original page. 
 
 Over the course of this project, I gained more experience in:
 
@@ -20,6 +20,7 @@ Over the course of this project, I gained more experience in:
 New skills I learned were:
 
 - Making a navbar sticky
+- Making a hero image using CSS
 - Making a tabbed section
 - Making a horizontal list
 - Making an accordion
