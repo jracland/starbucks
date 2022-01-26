@@ -126,6 +126,15 @@ p {
 
 /* Extras */
 
+.extras-btn {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.extras-col {
+  margin-top: 20px;
+}
+
 /* Getstars */
 #getstars {
   background-color: #f3f1e7;
