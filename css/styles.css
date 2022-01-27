@@ -34,6 +34,21 @@ p {
   margin-bottom: 20px;
 }
 
+.a-dark {
+  color: #1e3932;
+  font-weight: bold;
+}
+
+.a-mid {
+  color: #005931;
+}
+
+.a-light {
+  color: #008248;
+}
+
+
+
 /********** General Classes **********/
 
 .banner {
