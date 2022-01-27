@@ -26,3 +26,5 @@ New skills I learned were:
 - Making an accordion
 - Using media queries with display:none to change elements at different break points (i.e the button on the banner and the accordion switching to columns).
 - Taking a 'mobile first' approach to web development
+
+The part that took me the longest was constructing the layout and adding all the elements, as I still wasn't very good at recognising elements and working out the best way to put them together to create the site that I was attempting to replicate. I was also unaware of how to use media queries to switch between different elements at different screen sizes (i.e. a media query for 'display:none;' and 'display:block;'). This took a lot of researching and trial/error but I worked it out in the end. Once I had the basic layout and was starting to remember bootstrap classes instead of checking the docs every time, styling was much quicker. 

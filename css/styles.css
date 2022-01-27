@@ -47,6 +47,18 @@ p {
   color: #008248;
 }
 
+section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+@media screen and (min-width: 720px) {
+  section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  
+}
 
 
 /********** General Classes **********/
@@ -90,6 +102,9 @@ p {
 
 /* Splash */
 
+#splash {
+  padding-bottom: 0;
+}
 
 .h1-col {
   padding-top: 40px;
@@ -109,19 +124,6 @@ p {
 }
 
 /* Get Started */
-
-#getstarted, #extras {
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
-@media screen and (min-width: 720px) {
-  #getstarted, #extras {
-    padding-top: 150px;
-    padding-bottom: 150px;
-  }
-  
-}
 
 .getstarted-img {
   padding-top: 5%;
