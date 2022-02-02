@@ -143,10 +143,85 @@
       <div class="container-fluid favourites-header">
         <h2 class="sectionheader">Get your favourites for free</h2>
       </div>
+
+      <div>
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active">25*</a></li>
+          <li class="nav-item"><a class="nav-link">50*</a></li>
+          <li class="nav-item"><a class="nav-link">150*</a></li>
+          <li class="nav-item"><a class="nav-link">200*</a></li>
+          <li class="nav-item"><a class="nav-link">400*</a></li>
+        </ul>
+
+        <div class="tab-content">
+
+          <div class="tab-pane active">
+            <div class="row">
+              <div class="col">
+                <img src="img/025.png" alt="an espresso and a latte">
+              </div>
+              <div class="col">
+                <h3>Customise your drink</h3>
+                <p>Make your drink just right with an extra espresso shot, dairy substitute or a dash of your favorite syrup.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane">
+            <div class="row">
+              <div class="col">
+                <img src="img/050.png" alt="a cake and a black americano">
+              </div>
+              <div class="col">
+                <h3>Brewed hot coffee, bakery item, or hot tea</h3>
+                <p>Pair coffee cake or an almond croissant with your fresh cup of hot brew.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane">
+            <div class="row">
+              <div class="col">
+                <img src="img/150.png" alt="a muffin, a soda, and a caramel latte">
+              </div>
+              <div class="col">
+                <h3>Handcrafted drink, hot breakfast or parfait</h3>
+                <p>Have a really good morning with a breakfast sandwich, oatmeal or your favorite drink.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane">
+            <div class="row">
+              <div class="col">
+                <img src="img/200.png" alt="a chicken salad and a snack box">
+              </div>
+              <div class="col">
+                <h3>Salad, sandwich, or protein box</h3>
+                <p>Nourish your day with a hearty Chipotle Chicken Wrap or Eggs & Cheese Protein Box.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane">
+            <div class="row">
+              <div class="col">
+                <img src="img/400.png" alt="a mug and a bag of coffee">
+              </div>
+              <div class="col">
+                <h3>Select merchandise or at-home coffee</h3>
+                <p>Take home a signature cup, a bag of coffee or your choice of select coffee accessories.</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
       
       <!-- Carousel -->
       <!-- Note - this section should be tabs, instead of a carousel. It can be done in Bootstrap but I need to learn how to do the javascript necessary for the animations-->
-      <div id="favourites-carousel" class="carousel slide" data-bs-ride="false">
+      <div id="favourites-carousel" class="carousel slide d-none" data-bs-ride="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#favourites-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#favourites-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -322,8 +397,10 @@
 
     <!----------questions---------->
     <section id="questions">
-      <h2 class="sectionheader">Questions?</h2>
-      <p>We want to help in any way we can. You can ask your barista anytime or we’ve answered the most commonly asked questions <a href="https://customerservice.starbucks.com/app/answers/list/p/552" class="a-light">right over here</a>.</p>
+      <div class="container">
+        <h2>Questions?</h2>
+        <p>We want to help in any way we can. You can ask your barista anytime or we’ve answered the most commonly asked questions <a href="https://customerservice.starbucks.com/app/answers/list/p/552" class="a-light">right over here</a>.</p>
+      </div>
     </section>
 
     <!----------restrictions---------->
