@@ -33,18 +33,7 @@ p {
   margin-bottom: 20px;
 }
 
-.a-dark {
-  color: #1e3932;
-  font-weight: bold;
-}
 
-.a-mid {
-  color: #005931;
-}
-
-.a-light {
-  color: #008248;
-}
 
 section {
   padding-top: 10%;
@@ -80,6 +69,35 @@ section {
 
 /* Navbar and Banner */
 
+.a-dark {
+  color: #1e3932;
+  font-weight: bold;
+}
+
+.a-mid {
+  color: #005931;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.a-mid:hover {
+  color: #005931;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.a-light {
+  color: #008248;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.a-light:hover {
+  color: #008248;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .banner {
   background-color: #1e3932;
   color: #fff;
@@ -101,6 +119,20 @@ section {
 
 .nav-button {
   margin-right: 10px;
+}
+
+.footer-a {
+  color: grey;
+  line-height: 2.5rem;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer-a:hover {
+  color: rgb(59, 58, 58);
+  line-height: 2.5rem;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 /* Splash */
@@ -166,4 +198,24 @@ section {
 /* Restrictions */
 #restrictions {
   background-color: #f9f9f9;
+}
+
+/* Footer */
+
+.social-a {
+  color: rgb(59, 58, 58);
+  line-height: 2.5rem;
+  text-decoration: none;
+}
+
+.social-a:hover {
+  color: rgb(32, 32, 32);
+  line-height: 2.5rem;
+  text-decoration: underline;
+}
+
+.social-icon {
+  color: rgb(32, 32, 32);
+  font-size: 2rem;
+  margin: 30px 5px;
 }
