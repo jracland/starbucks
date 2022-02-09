@@ -55,20 +55,6 @@ section {
 
 /********** General Classes **********/
 
-.banner {
-  text-align: left;
-}
-
-.icon-image {
-  width: 112px;
-}
-
-
-
-/********** Sections **********/
-
-/* Navbar and Banner */
-
 .a-dark {
   color: #1e3932;
   font-weight: bold;
@@ -98,6 +84,16 @@ section {
   text-decoration: none;
 }
 
+.icon-image {
+  width: 112px;
+}
+
+
+
+/********** Sections **********/
+
+/* Navbar and Banner */
+
 .banner {
   background-color: #1e3932;
   color: #fff;
@@ -121,19 +117,6 @@ section {
   margin-right: 10px;
 }
 
-.footer-a {
-  color: grey;
-  line-height: 2.5rem;
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.footer-a:hover {
-  color: rgb(59, 58, 58);
-  line-height: 2.5rem;
-  list-style-type: none;
-  text-decoration: none;
-}
 
 /* Splash */
 
@@ -158,6 +141,13 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+@media screen and (min-width: 720px) {
+   .hero-bg {
+    max-height: 430px;
+    padding: 80px 30px;
+  }
 }
 
 /* Get Started */
@@ -202,6 +192,20 @@ section {
 
 /* Footer */
 
+.footer-a {
+  color: grey;
+  line-height: 2.5rem;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer-a:hover {
+  color: rgb(59, 58, 58);
+  line-height: 2.5rem;
+  list-style-type: none;
+  text-decoration: none;
+}
+
 .social-a {
   color: rgb(59, 58, 58);
   line-height: 2.5rem;
@@ -219,3 +223,4 @@ section {
   font-size: 2rem;
   margin: 30px 5px;
 }
+
